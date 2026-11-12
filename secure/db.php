@@ -12,10 +12,6 @@ header("X-Frame-Options: DENY");
 // Control referrer information
 header("Referrer-Policy: strict-origin-when-cross-origin");
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "bdreminder";
 $host = "localhost"; // Replace with your actual database host
 $username = "your username";// Replace with your actual database username
 $password = "your password";// Replace with your actual database password
