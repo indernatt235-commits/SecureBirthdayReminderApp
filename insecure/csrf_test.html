@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Demonstration</title>
+</head>
+
+<body>
+
+<h2>CSRF Test Page</h2>
+
+<form action="http://localhost/birthdayReminder/secure/add_birthday.php"
+      method="POST">
+
+    <input type="hidden" name="person_name" value="CSRF Test Person">
+
+    <input type="hidden" name="date_of_birth" value="2000-01-01">
+
+    <input type="hidden" name="additional_notes" value="Added through CSRF test">
+
+    <button type="submit">Run CSRF Test</button>
+
+</form>
+
+</body>
+</html>
